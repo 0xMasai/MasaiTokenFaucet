@@ -1,14 +1,26 @@
-# Sample Hardhat Project
+# Masai Token Faucet
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Masai Token Faucet is a lightweight Web3 dApp that allows users to connect their MetaMask wallet and claim free MASAI tokens from a smart contract deployed on the blockchain. It's built for testnet purposes—perfect for demos, testing, and getting users familiar with token interactions without spending real ETH.
 
-Try running some of the following tasks:
+## 🚀 Features
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
-# MasaiTokenFaucet
+- Connect wallet via MetaMask
+- View current wallet address and token balance
+- Display faucet amount set in the smart contract
+- Claim MASAI tokens through a blockchain transaction
+- Real-time UI updates on token claim
+- Designed with React and Ethers.js
+
+## 🧪 Tech Stack
+
+- React + Vite
+- Ethers.js
+- Solidity Smart Contract (Testnet)
+- MetaMask integration
+
+## 🛠️ Setup & Installation
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/your-username/masai-token-faucet.git
+   cd masai-token-faucet
